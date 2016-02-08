@@ -1,0 +1,135 @@
+\hypertarget{class_d_b_kit}{\section{D\-B\-Kit Class Reference}
+\label{class_d_b_kit}\index{D\-B\-Kit@{D\-B\-Kit}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_d_b_kit_a478255538264e212fe5a3924d69e34a6}{\-\_\-\-\_\-construct} (\$host, \$dbuser, \$dbpassword, \$dbname)
+\item 
+\hyperlink{class_d_b_kit_a9ac768272a054d6ef7e8436f1144b730}{Connect} ()
+\item 
+\hyperlink{class_d_b_kit_aec617d8b732c15e5d5be216fee2b9bf5}{Disconnect} ()
+\item 
+\hyperlink{class_d_b_kit_abe57042ceda608005904adcbf3a03ce1}{Exec\-S\-Q\-L} (\$sql)
+\item 
+\hyperlink{class_d_b_kit_ab8ad12e8a3f2fed48c7e6974e58f6dcd}{Insert\-Data} (\$table, \$sqlcolumns, \$vars)
+\begin{DoxyCompactList}\small\item\em Insert Data into a table. \end{DoxyCompactList}\item 
+\hyperlink{class_d_b_kit_a3858bee81ad39a80260c2fc0989ba358}{Fetch\-Data} (\$table, \$sqlcolumns, \$selector)
+\begin{DoxyCompactList}\small\item\em Fetch Data into an array. Usage example\-: \$data = \$database-\/$>$Fetch\-Data(\char`\"{}mytable\char`\"{},\char`\"{}$\ast$\char`\"{},\char`\"{}\-O\-R\-D\-E\-R B\-Y id asc\char`\"{});. \end{DoxyCompactList}\item 
+\hyperlink{class_d_b_kit_ab2b1c845fbe54b7e22f1ff5901f6c6ce}{Fetch\-Data\-Exec} (\$table, \$sqlcolumns, \$selector)
+\item 
+\hyperlink{class_d_b_kit_a6de0c2e86c373f77c8833ba52b3f76ce}{Count} ()
+\item 
+\hyperlink{class_d_b_kit_a6c1483f522f804c83535542ab5938553}{Count\-Table} (\$table)
+\item 
+\hyperlink{class_d_b_kit_a8daccf2bdab13873d4cdeaf349027bc8}{Mysql} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_d_b_kit_a112ef069ddc0454086e3d1e6d8d55d07}{\$result}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_d_b_kit_a478255538264e212fe5a3924d69e34a6}{\index{D\-B\-Kit@{D\-B\-Kit}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!DBKit@{D\-B\-Kit}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$host, }
+\item[{}]{\$dbuser, }
+\item[{}]{\$dbpassword, }
+\item[{}]{\$dbname}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a478255538264e212fe5a3924d69e34a6}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_d_b_kit_a9ac768272a054d6ef7e8436f1144b730}{\index{D\-B\-Kit@{D\-B\-Kit}!Connect@{Connect}}
+\index{Connect@{Connect}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Connect}]{\setlength{\rightskip}{0pt plus 5cm}Connect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a9ac768272a054d6ef7e8436f1144b730}
+\hypertarget{class_d_b_kit_a6de0c2e86c373f77c8833ba52b3f76ce}{\index{D\-B\-Kit@{D\-B\-Kit}!Count@{Count}}
+\index{Count@{Count}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Count}]{\setlength{\rightskip}{0pt plus 5cm}Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a6de0c2e86c373f77c8833ba52b3f76ce}
+\hypertarget{class_d_b_kit_a6c1483f522f804c83535542ab5938553}{\index{D\-B\-Kit@{D\-B\-Kit}!Count\-Table@{Count\-Table}}
+\index{Count\-Table@{Count\-Table}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Count\-Table}]{\setlength{\rightskip}{0pt plus 5cm}Count\-Table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a6c1483f522f804c83535542ab5938553}
+\hypertarget{class_d_b_kit_aec617d8b732c15e5d5be216fee2b9bf5}{\index{D\-B\-Kit@{D\-B\-Kit}!Disconnect@{Disconnect}}
+\index{Disconnect@{Disconnect}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Disconnect}]{\setlength{\rightskip}{0pt plus 5cm}Disconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_aec617d8b732c15e5d5be216fee2b9bf5}
+\hypertarget{class_d_b_kit_abe57042ceda608005904adcbf3a03ce1}{\index{D\-B\-Kit@{D\-B\-Kit}!Exec\-S\-Q\-L@{Exec\-S\-Q\-L}}
+\index{Exec\-S\-Q\-L@{Exec\-S\-Q\-L}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Exec\-S\-Q\-L}]{\setlength{\rightskip}{0pt plus 5cm}Exec\-S\-Q\-L (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_abe57042ceda608005904adcbf3a03ce1}
+\hypertarget{class_d_b_kit_a3858bee81ad39a80260c2fc0989ba358}{\index{D\-B\-Kit@{D\-B\-Kit}!Fetch\-Data@{Fetch\-Data}}
+\index{Fetch\-Data@{Fetch\-Data}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Fetch\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Fetch\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$sqlcolumns, }
+\item[{}]{\$selector}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a3858bee81ad39a80260c2fc0989ba358}
+
+
+Fetch Data into an array. Usage example\-: \$data = \$database-\/$>$Fetch\-Data(\char`\"{}mytable\char`\"{},\char`\"{}$\ast$\char`\"{},\char`\"{}\-O\-R\-D\-E\-R B\-Y id asc\char`\"{});. 
+
+foreach (\$data as \$row) \{ \$username = \$row\mbox{[}'username'\mbox{]}; \} \hypertarget{class_d_b_kit_ab2b1c845fbe54b7e22f1ff5901f6c6ce}{\index{D\-B\-Kit@{D\-B\-Kit}!Fetch\-Data\-Exec@{Fetch\-Data\-Exec}}
+\index{Fetch\-Data\-Exec@{Fetch\-Data\-Exec}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Fetch\-Data\-Exec}]{\setlength{\rightskip}{0pt plus 5cm}Fetch\-Data\-Exec (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$sqlcolumns, }
+\item[{}]{\$selector}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_ab2b1c845fbe54b7e22f1ff5901f6c6ce}
+\hypertarget{class_d_b_kit_ab8ad12e8a3f2fed48c7e6974e58f6dcd}{\index{D\-B\-Kit@{D\-B\-Kit}!Insert\-Data@{Insert\-Data}}
+\index{Insert\-Data@{Insert\-Data}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Insert\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Insert\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$sqlcolumns, }
+\item[{}]{\$vars}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_ab8ad12e8a3f2fed48c7e6974e58f6dcd}
+
+
+Insert Data into a table. 
+
+Usage example\-: \$database-\/$>$Insert\-Data(\char`\"{}mytable\char`\"{},\char`\"{}col1,col2,col3\char`\"{},\char`\"{}var1,var2,var3\char`\"{}); \hypertarget{class_d_b_kit_a8daccf2bdab13873d4cdeaf349027bc8}{\index{D\-B\-Kit@{D\-B\-Kit}!Mysql@{Mysql}}
+\index{Mysql@{Mysql}!DBKit@{D\-B\-Kit}}
+\subsubsection[{Mysql}]{\setlength{\rightskip}{0pt plus 5cm}Mysql (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_d_b_kit_a8daccf2bdab13873d4cdeaf349027bc8}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_d_b_kit_a112ef069ddc0454086e3d1e6d8d55d07}{\index{D\-B\-Kit@{D\-B\-Kit}!\$result@{\$result}}
+\index{\$result@{\$result}!DBKit@{D\-B\-Kit}}
+\subsubsection[{\$result}]{\setlength{\rightskip}{0pt plus 5cm}\$result}}\label{class_d_b_kit_a112ef069ddc0454086e3d1e6d8d55d07}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pagekit_8php}{pagekit.\-php}\end{DoxyCompactItemize}
